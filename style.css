@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=swap");
+/* ---------------------------------------------------------- */
+      html {
+  scroll-behavior: smooth;
+}
+
+      body {
+        font-family: "Advent Pro", sans-serif;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+}
+      ul {
+        margin: 0;
+        padding: 0;
+      }
+      li {
+        list-style-type: none;
+      }
+      #division {
+        height: 1px;
+        width: 25%;
+        margin: -3px auto;
+        background-color: #fffae1;
+        box-shadow: 1px 3px 2px black;
+      }
+      #division2 {
+        height: 1px;
+        width: 25%;
+        margin: -3px auto;
+        background-color: #fffae1;
+        box-shadow: 1px 3px 2px black;
+      }
+      #division3 {
+        height: 1px;
+        width: 25%;
+        margin: -3px auto;
+        background-color: #fffae1;
+        box-shadow: 1px 3px 2px black;
+      }
+      .menu {
+        margin: 20px auto;
+        width: 500px;
+        border-radius: 10px;
+        border: 1px solid #ccc;
+        background-color: #fafafa;
+        padding: 15px;
+        text-align: center;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+        .menu img {
+        width: 500px;
+        object-fit: cover; /* pour que l’image remplisse bien sans déformation */
+        height: 350px;
+        border-radius: 8px;
+        }
+        .menu img:hover {
+        opacity: 0.5;
+        transform: scale(1.05);
+        transition: 0.7s ease-in-out;
+}
